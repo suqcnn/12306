@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-09T03:08:47.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="S3jS9Fnbrc-fGHDzX1Yl" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-09T03:12:14.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="530usJ3in5TzoD0HBtdh" version="13.6.2" type="github">
   <diagram id="PhEEJEA-2G6-cMnCDy3O" name="Page-1">
-    <mxGraphModel dx="786" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,6 +13,11 @@
             <mxPoint x="440" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Z61GNd5gtoBHjjhybAT_-13" value="协议扩展" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z61GNd5gtoBHjjhybAT_-2">
+          <mxGeometry x="0.2" y="4" relative="1" as="geometry">
+            <mxPoint x="-22" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Z61GNd5gtoBHjjhybAT_-4" value="协议底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="240" width="230" height="60" as="geometry" />
         </mxCell>
@@ -21,6 +26,29 @@
         </mxCell>
         <mxCell id="Z61GNd5gtoBHjjhybAT_-7" value="协议底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="240" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z61GNd5gtoBHjjhybAT_-8" value="通用数据处理" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-10" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z61GNd5gtoBHjjhybAT_-9" value="数据处理底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z61GNd5gtoBHjjhybAT_-10" value="特有数据处理" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-10" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z61GNd5gtoBHjjhybAT_-11" value="数据处理底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z61GNd5gtoBHjjhybAT_-12" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="79" as="sourcePoint" />
+            <mxPoint x="440" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z61GNd5gtoBHjjhybAT_-14" value="数据处理扩展" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z61GNd5gtoBHjjhybAT_-12">
+          <mxGeometry x="0.0857" relative="1" as="geometry">
+            <mxPoint x="-8" y="21" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
