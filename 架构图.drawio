@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-09T03:51:28.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8" etag="0DtXnE5cfAmfsxdgHCrC" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-09T03:59:41.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8" etag="YECd8XSklXv-iN02-M-V" version="13.6.2" type="github">
   <diagram id="PhEEJEA-2G6-cMnCDy3O" name="扩展点二级视图">
     <mxGraphModel dx="1123" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,18 +80,18 @@
           <mxGeometry x="837" y="-50" width="143" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z61GNd5gtoBHjjhybAT_-29" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=9;" parent="1" vertex="1">
-          <mxGeometry x="827" y="-440" width="660" height="230" as="geometry" />
+          <mxGeometry x="827" y="-440" width="660" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="Z61GNd5gtoBHjjhybAT_-31" value="业务SDK扩展" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="847" y="-430" width="100" height="20" as="geometry" />
+        <mxCell id="Z61GNd5gtoBHjjhybAT_-31" value="业务SDK／影子（孪生）设备扩展" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="847" y="-430" width="203" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6fiUUjPSepoLGfJAcD25-1" value="通用属性+通用行为" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+        <mxCell id="6fiUUjPSepoLGfJAcD25-1" value="业务通用属性+业务通用行为" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="882" y="-400" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6fiUUjPSepoLGfJAcD25-2" value="业务SDK底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="882" y="-310" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6fiUUjPSepoLGfJAcD25-3" value="特有属性+特有行为" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+        <mxCell id="6fiUUjPSepoLGfJAcD25-3" value="业务特有属性+业务特有行为" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1237" y="-400" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6fiUUjPSepoLGfJAcD25-4" value="业务SDK底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -106,14 +106,51 @@
         <mxCell id="6fiUUjPSepoLGfJAcD25-7" value="子unios-app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="-550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6fiUUjPSepoLGfJAcD25-8" value="Restful" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1007" y="-430" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="6fiUUjPSepoLGfJAcD25-9" value="特定APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="-645" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6fiUUjPSepoLGfJAcD25-10" value="Restful" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1357" y="-430" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-11" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="-310" as="sourcePoint" />
+            <mxPoint x="1220" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-12" value="业务扩展" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6fiUUjPSepoLGfJAcD25-11">
+          <mxGeometry x="0.2" y="4" relative="1" as="geometry">
+            <mxPoint x="-22" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-14" value="设备通用属性+设备通用行为" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="879.5" y="-220" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-15" value="设备影子对象底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="879.5" y="-130" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-16" value="设备特有属性+设备特有行为" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="1234.5" y="-220" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-17" value="设备影子对象底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1234.5" y="-130" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-18" value="Restful" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1077.5" y="-250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-19" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1147.5" y="-130" as="sourcePoint" />
+            <mxPoint x="1217.5" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-20" value="设备扩展" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6fiUUjPSepoLGfJAcD25-19">
+          <mxGeometry x="0.2" y="4" relative="1" as="geometry">
+            <mxPoint x="-22" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-8" value="Restful" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1357" y="-260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
