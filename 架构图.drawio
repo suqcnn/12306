@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-09T03:37:12.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8" etag="avaloTkynVpuyuQp673U" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-09T03:39:07.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8" etag="qi94xTYNrC6ViNXspaAA" version="13.6.2" type="github">
   <diagram id="PhEEJEA-2G6-cMnCDy3O" name="Page-1">
     <mxGraphModel dx="786" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,11 +85,17 @@
         <mxCell id="Z61GNd5gtoBHjjhybAT_-31" value="业务SDK扩展" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="-300" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6fiUUjPSepoLGfJAcD25-1" value="通用数据处理" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+        <mxCell id="6fiUUjPSepoLGfJAcD25-1" value="通用属性+通用行为" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="105" y="-270" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6fiUUjPSepoLGfJAcD25-2" value="数据处理底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6fiUUjPSepoLGfJAcD25-2" value="业务SDK底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="105" y="-180" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-3" value="特有属性+特有行为" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-270" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-4" value="业务SDK底座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-180" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
