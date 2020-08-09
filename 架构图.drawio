@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-09T03:49:44.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8" etag="E33sW5Rs2IiP4bG1tY2c" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-09T03:50:40.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8" etag="me_DeDyCIP7N-pNMSEpv" version="13.6.2" type="github">
   <diagram id="PhEEJEA-2G6-cMnCDy3O" name="扩展点二级视图">
     <mxGraphModel dx="1123" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,10 +107,13 @@
           <mxGeometry x="970" y="-550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6fiUUjPSepoLGfJAcD25-8" value="Restful" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="-340" width="120" height="60" as="geometry" />
+          <mxGeometry x="1007" y="-430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6fiUUjPSepoLGfJAcD25-9" value="特定APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="-645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6fiUUjPSepoLGfJAcD25-10" value="Restful" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1357" y="-430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
